@@ -1,0 +1,176 @@
+[
+    {
+        "name":"car",
+        "questions": [
+            {"id":0, "question":"What make do I want?", "formType":"dropdown"},
+            {"id":1, "question":"What model do I want?", "formType":"dropdown"},
+            {"id":2, "question":"What year do I want the car to be manufactured?", "formType":"dropdown"},
+            {"id":3, "question":"What transmission type do I want?", "formType":"radio"},
+            {"id":4, "question":"What fuel type do I want?", "formType":"radio"},
+            {"id":5, "question":"What colour do I want?", "formType":"dropdown"},
+            {"id":6, "question":"What other features do I want?", "formType":"checkbox"}
+            
+        ],   
+        "answers": [
+            {"id":0, "ans":[
+                {"id":0, "answer":"BMW"},
+                {"id":1, "answer":"Ford"},
+                {"id":2, "answer":"Honda"},
+                {"id":3, "answer":"Holden"},
+                {"id":4, "answer":"Hyundai"},
+                {"id":5, "answer":"Mazda"},
+                {"id":6, "answer":"Mercedes Benz"},
+                {"id":7, "answer":"Mitsubishi"},
+                {"id":8, "answer":"Nissan"},
+                {"id":9, "answer":"Mazda"},
+                {"id":10, "answer":"Toyota"}
+            ]},
+            {"id":1, "ans":[
+                {"id":0, "answer":"Accord"},
+                {"id":1, "answer":"Camry"},
+                {"id":2, "answer":"Civic"},
+                {"id":3, "answer":"Corolla"},
+                {"id":4, "answer":"Golf"},
+                {"id":5, "answer":"Hilux"},
+                {"id":6, "answer":"Ranger"},
+                {"id":7, "answer":"Supra"}
+            ]},
+            {"id":2, "ans":[
+                {"id":0, "answer":"2000"},
+                {"id":1, "answer":"2001"},
+                {"id":2, "answer":"2002"},
+                {"id":3, "answer":"2003"},
+                {"id":4, "answer":"2004"},
+                {"id":5, "answer":"2005"},
+                {"id":6, "answer":"2006"},
+                {"id":7, "answer":"2008"},
+                {"id":8, "answer":"2009"},
+                {"id":9, "answer":"2010"},
+                {"id":10, "answer":"2011"},
+                {"id":11, "answer":"2012"},
+                {"id":12, "answer":"2013"},
+                {"id":13, "answer":"2014"},
+                {"id":14, "answer":"2015"},
+                {"id":15, "answer":"2016"},
+                {"id":16, "answer":"2017"},
+                {"id":17, "answer":"2018"},
+                {"id":18, "answer":"2019"},
+                {"id":19, "answer":"2020"},
+                {"id":20, "answer":"2021"},
+                {"id":21, "answer":"2022"}
+            ]},
+            {"id":3, "ans":[
+                {"id":0, "answer":"Automatic"},
+                {"id":1, "answer":"Manual"}
+            ]},
+            {"id":4, "ans":[
+                {"id":0, "answer":"Any"},
+                {"id":1, "answer":"Diesel"},
+                {"id":2, "answer":"Electric"},
+                {"id":3, "answer":"Hybrid"},
+                {"id":4, "answer":"Non-Electric"},
+                {"id":5, "answer":"Petrol"}
+            ]},
+            {"id":5, "ans":[
+                {"id":0, "answer":"Black"},
+                {"id":1, "answer":"Blue"},
+                {"id":2, "answer":"Green"},
+                {"id":3, "answer":"Grey"},
+                {"id":4, "answer":"Red"},
+                {"id":5, "answer":"Silver"},
+                {"id":6, "answer":"White"}
+            ]},
+            {"id":6, "ans":[
+                {"id":0, "answer":"Heated Seats"},
+                {"id":1, "answer":"Parking Sensors"},
+                {"id":2, "answer":"Sunroof"},
+                {"id":3, "answer":"Rearview Camera"}
+            ]}
+        ]
+    },
+    {
+        "name":"electricity",
+        "questions": [
+            {"id":0, "question":"What property type is this plan for?", "formType":"radio"},
+            {"id":1, "question":"What is my current monthly consumption (in kWh)?", "formType":"text"},
+            {"id":2, "question":"What is my preferred contract length?", "formType":"dropdown"},
+            {"id":3, "question":"Do I want the plan to be carbon neutral?", "formType":"radio"},
+            {"id":4, "question":"Do I have solar panels installed?", "formType":"radio"},
+            {"id":5, "question":"What is my billing preference?", "formType":"radio"}
+            
+        ],   
+        "answers": [
+            {"id":0, "ans":[
+                {"id":0, "answer":"Commercial"},
+                {"id":1, "answer":"Residential"}
+            ]},
+            {"id":1, "ans":[
+                {"id":0, "answer":"0"}
+            ]},
+            {"id":2, "ans":[
+                {"id":0, "answer":"Month-to-month"},
+                {"id":1, "answer":"6 months"},
+                {"id":2, "answer":"12 months"},
+                {"id":3, "answer":"24 months"}
+            ]},
+            {"id":3, "ans":[
+                {"id":0, "answer":"No"},
+                {"id":1, "answer":"Yes"}
+            ]},
+            {"id":4, "ans":[
+                {"id":0, "answer":"No"},
+                {"id":1, "answer":"Yes"}
+            ]},
+            {"id":5, "ans":[
+                {"id":0, "answer":"Electronic"},
+                {"id":1, "answer":"Mail"}
+            ]}
+        ]
+    },
+    {
+        "name":"phone",
+        "questions": [
+           {"id":0, "question":"How many minutes of calls do I want locally?", "formType":"dropdown"},
+           {"id":1, "question":"How many minutes of calls do I want internationally?", "formType":"dropdown"},
+           {"id":2, "question":"How much data do I want per month?", "formType":"dropdown"},
+           {"id":3, "question":"How long do I want the contract to go for?", "formType":"dropdown"},
+           {"id":4, "question":"What is my preferred phone?", "formType":"dropdown"}
+            
+        ],   
+        "answers": [
+            {"id":0, "ans":[
+                {"id":0, "answer":"100"},
+                {"id":1, "answer":"500"},
+                {"id":2, "answer":"1000"},
+                {"id":3, "answer":"Unlimited"}
+            ]}, 
+            {"id":1, "ans":[
+                {"id":0, "answer":"100"},
+                {"id":1, "answer":"500"},
+                {"id":2, "answer":"1000"},
+                {"id":3, "answer":"Unlimited"}
+            ]}, 
+            {"id":2, "ans":[
+                {"id":0, "answer":"5GB"},
+                {"id":1, "answer":"10GB"},
+                {"id":2, "answer":"25GB"},
+                {"id":3, "answer":"50GB"},
+                {"id":4, "answer":"100GB"},
+                {"id":5, "answer":"Unlimited"}
+            ]},
+            {"id":3, "ans":[
+                {"id":0, "answer":"Month-to-month"},
+                {"id":1, "answer":"6 months"},
+                {"id":2, "answer":"12 months"},
+                {"id":3, "answer":"24 months"}
+            ]}, 
+            {"id":4, "ans":[
+                {"id":0, "answer":"iPhone 13"},
+                {"id":1, "answer":"Samsung Galaxy S22"},
+                {"id":2, "answer":"Oppo Find X5 Pro"},
+                {"id":3, "answer":"Google Pixel 7"},
+                {"id":4, "answer":"OnePlus 11"}
+            ]}
+        ]
+    }
+]

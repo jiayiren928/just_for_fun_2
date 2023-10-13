@@ -1,0 +1,65 @@
+.sign-select-comp {
+    width: 280px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.sign-select-value-comp {
+    color: #000;
+    font-size: 16px;
+}
+
+.sign-select-placeholder-comp {
+    color: #B4B4B4;
+    font-size: 16px;
+}
+
+.sign-select-comp-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+.sign-select-options {
+    width: 280px;
+    display: none;
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    padding: 10px 0 0;
+}
+
+.sign-select-show-comp .sign-select-options {
+    display: block;
+}
+
+.sign-select-options-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.sign-select-option {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #000;
+}
+
+.sign-select-option:hover {
+    color: #000;
+    font-weight: 700;
+}

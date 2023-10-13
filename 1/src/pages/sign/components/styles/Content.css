@@ -1,0 +1,8 @@
+.sign-content-comp {
+    width: 456px;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 12px;
+    background: #F5F5F5;
+    position: relative;
+}

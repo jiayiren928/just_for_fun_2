@@ -1,0 +1,104 @@
+.sign-radio-group-comp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    row-gap: 10px;
+}
+
+.radio-label {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    display: inline-flex;
+    align-items: baseline;
+    margin-inline-start: 0;
+    margin-inline-end: 8px;
+    cursor: pointer;
+}
+
+.span-radio {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.span-radio-input {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: 0;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.span-radio-inner {
+    box-sizing: border-box;
+    position: relative;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+.isSelected::after {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-block-start: 0;
+    border-inline-start: 0;
+    border-radius: 16px;
+    opacity: 1;
+    transition: all .3s cubic-bezier(.78, .14, .15, .86);
+    content: "";
+}
+
+.span-text {
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.radio-list {
+    flex: 1;
+}

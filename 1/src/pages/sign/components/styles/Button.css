@@ -1,0 +1,32 @@
+.black-button {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    box-sizing: border-box;
+    padding: 8px 29px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.sign-button {
+    width: 100%;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #CAEBF2;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+.sign-text-comp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-text-comp-content {
+    color: #333;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sign-text-comp-desc {
+    color: rgba(0, 0, 0, 0.56);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

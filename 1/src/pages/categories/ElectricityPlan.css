@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.car{
+    display: flex;
+}
+.car table{
+    width: 900px;
+}
+.auctions-list {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.banner {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 20px;
+    background-color: #F6F6F6;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.title-category {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #484848;
+}
+
+.title-dashboard {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 10px 0;
+    display: inline-block;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+.go-back-button {
+    width: 110px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-flex;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 10px;
+    line-height: 35px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.auction-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 165px;
+    height: 200px;
+    min-height: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #F7F7F7;
+}
+
+.auction-item-title {
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.auction-item-text {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.description-container {
+    width: 115px;
+    height: 65px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.auction-item-description {
+    font-size: 6px;
+    color: #929292;
+}
+
+.auction-item-time {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.requirements-container {
+    font-size: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}

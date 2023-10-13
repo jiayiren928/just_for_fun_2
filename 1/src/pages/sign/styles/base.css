@@ -1,0 +1,63 @@
+.sign-page {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.sign-page-header {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.sign-page-content {
+    width: 456px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-page-content .sign-content-comp {
+    margin-top: 10px;
+}
+
+.sign-page-content .sign-radio-group-comp {
+    margin-top: 90px;
+    margin-bottom: 23px;
+    width: calc(100% - 92px);
+    margin-left: 75px;
+}
+
+.sign-page-content .sign-input-comp {
+    margin-top: 49px;
+}
+
+.sign-page-content .sign-button {
+}
+
+.sign-page-button {
+    box-sizing: border-box;
+    margin-top: 180px;
+    padding: 20px;
+}
+
+.sign-page-flex {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.sign-page-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-page-select {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
